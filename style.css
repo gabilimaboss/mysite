@@ -1,0 +1,36 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+h1 {
+  font-size: 2em;
+  color: #ff4444;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+.loader {
+  margin-top: 30px;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #ff4444;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
